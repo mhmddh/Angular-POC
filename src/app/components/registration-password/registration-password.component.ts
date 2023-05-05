@@ -3,7 +3,9 @@ import { FormControl, FormGroup, ValidationErrors, Validators } from '@angular/f
 
 @Component({
     selector: 'registration-password',
-    templateUrl: './registration-password.component.html'
+    templateUrl: './registration-password.component.html',
+    styleUrls: ['./registration-password.component.scss'],
+
 })
 export class RegistrationPasswordComponent implements OnInit {
     @Input() newPassword!: FormControl;

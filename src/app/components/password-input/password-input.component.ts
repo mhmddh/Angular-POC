@@ -4,6 +4,7 @@ import { ControlValueAccessor, FormControl, NG_VALUE_ACCESSOR } from '@angular/f
 @Component({
   selector: 'password-input',
   templateUrl: './password-input.component.html',
+  styleUrls: ['./password-input.component.scss'],
   providers: [
     {
       provide: NG_VALUE_ACCESSOR,

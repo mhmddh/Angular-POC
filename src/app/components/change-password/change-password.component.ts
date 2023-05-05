@@ -4,7 +4,7 @@ import { FormControl, Validators } from '@angular/forms';
 @Component({
   selector: 'change-password',
   templateUrl: './change-password.component.html',
-
+  styleUrls: ['./change-password.component.scss'],
 })
 export class ChangePasswordComponent {
 
